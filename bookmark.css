@@ -1,15 +1,18 @@
+
 div.container {
     width: 500px;
     clear: both;
 }
 
-div.container input[type=text] {
+div.container input[type=text],
+textarea {
     clear: both;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     width: 50%;
 }
 
-div.container input[type=text]:focus {
+div.container input[type=text]:focus,
+textarea:focus {
     width: 100%;
 }

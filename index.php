@@ -3,8 +3,8 @@
 
 <head>
     <title>Bookmark</title>
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="script" href="../controllers/bookmarkController.js" />
+    <link rel="stylesheet" href="bookmark.css" />
+    <link rel="script" href="bookmark.js" />
     <meta charset="UTF-8">
 </head>
 
@@ -28,6 +28,10 @@
                 <br/>
                 <input type="text" name="websiteAddress" />
                 <br />
+                Notes:
+                <br/>
+                <textarea placeholder="Some note..." name="websiteNotes"></textarea>
+                <br/>
                 <input type="submit" />
             </fieldset>
         </form>
