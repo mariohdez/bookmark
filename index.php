@@ -1,9 +1,6 @@
 <!--
     Author: Mario Hernandez
 -->
-<?php
-include("functions.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +19,7 @@ include("functions.php");
         Keep track of what you want to visit.
     </p>
     <div class="container">
-        <form>
+        <form action="bookmark.php" method="post">
             <fieldset>
                 <legend>
                     New Bookmark
@@ -34,7 +31,7 @@ include("functions.php");
                 <label class="heading" for="address">Address:</label>
                 <input type="text" name="address" id="name"/> <br />
 
-                <input type="submit" value="Sign up" />
+                <input type="submit" value="Save" />
             </fieldset>
         </form>
     </div>
