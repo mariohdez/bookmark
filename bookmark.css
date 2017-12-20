@@ -1,18 +1,45 @@
 
+body {
+    background-color: rgb(0, 188, 221);
+}
+
 div.container {
     width: 500px;
+    margin: 0 auto;
     clear: both;
 }
 
-div.container input[type=text],
-textarea {
-    clear: both;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    width: 50%;
+fieldset {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21em;
+    border-color: black;
+    border-width: 1px;
 }
 
-div.container input[type=text]:focus,
-textarea:focus {
-    width: 100%;
+form {
+    font-family:  "Helvetica", sans-serif;
+}
+
+input {
+    margin-bottom: 0.5em;
+}
+
+input[type="submit"] {
+    margin-left: 10em;
+    font-weight: bold;
+}
+
+label.heading {
+    float: left;
+    margin-right: 1em;
+    text-align: right;
+    width: 7em;
+}
+
+legend {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.25em;
 }

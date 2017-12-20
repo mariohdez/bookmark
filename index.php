@@ -1,3 +1,9 @@
+<!--
+    Author: Mario Hernandez
+-->
+<?php
+include("functions.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,18 +27,14 @@
                 <legend>
                     New Bookmark
                 </legend>
-                Website name:
-                <br/>
-                <input type="text" name="websiteName" />
-                <br /> Website Address:
-                <br/>
-                <input type="text" name="websiteAddress" />
-                <br />
-                Notes:
-                <br/>
-                <textarea placeholder="Some note..." name="websiteNotes"></textarea>
-                <br/>
-                <input type="submit" />
+
+                <label class="heading" for="name">Name:</label>
+                <input type="text" name="name" id="name"/> <br />
+
+                <label class="heading" for="address">Address:</label>
+                <input type="text" name="address" id="name"/> <br />
+
+                <input type="submit" value="Sign up" />
             </fieldset>
         </form>
     </div>
